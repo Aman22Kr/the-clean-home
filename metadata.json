@@ -1,0 +1,6 @@
+{
+  "name": "the clean home - Premium Indoor Wellness & Sanitization",
+  "description": "Recreation of The Healthy Home under 'the clean home' brand. Premium AC duct cleaning, mattress sanitization, eco-friendly deep cleaning, and indoor air wellness in the UAE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
