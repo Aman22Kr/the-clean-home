@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { SERVICES_DATA, UAE_LOCATIONS } from '../data/servicesData';
+import { APP_IMAGES } from '../assets/images';
 import { VideoPlaceholder } from '../components/VideoPlaceholder';
 import { AdPlaceholder } from '../components/AdPlaceholder';
 import { 
@@ -212,7 +213,7 @@ export const HomePage: React.FC = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-lg aspect-16/9 sm:aspect-[21/9]">
           <img
-            src="/src/assets/images/hero_indoor_wellness_1792897222616.jpg"
+            src={APP_IMAGES.heroIndoorWellness}
             alt="Pristine Dubai living room with healthy pure air and natural light"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

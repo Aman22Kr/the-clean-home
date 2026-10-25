@@ -1,3 +1,5 @@
+import { APP_IMAGES } from '../assets/images';
+
 export interface ServiceItem {
   id: string;
   slug: string;
@@ -29,7 +31,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Breathe pristine, dust-free indoor air with medical-grade duct decontamination',
     shortDescription: 'Comprehensive mechanical rotary brush cleaning and chemical-free bio-disinfection for residential and commercial air conditioning duct networks.',
     fullDescription: 'In the UAE climate, air conditioning systems continuously recirculate indoor air, accumulating fine desert dust, mold spores, and airborne allergens inside the ductwork. Our NADCA-certified AC Duct Cleaning removes up to 99.8% of contaminants using state-of-the-art negative pressure vacuum systems, rotary brushes, and organic tea-tree oil sanitization.',
-    image: '/src/assets/images/service_ac_duct_cleaning_1792897222434.jpg',
+    image: APP_IMAGES.serviceAcDuctCleaning,
     basePriceAED: 590,
     unitLabel: 'per AC unit / system',
     estimatedDuration: '3 - 5 hours',
@@ -80,7 +82,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Deep dry medical-grade extraction and UV-C germicidal sterilization',
     shortDescription: 'Industrial vibration dry extraction eliminates millions of dead skin flakes, dust mites, and microscopic allergens without toxic moisture.',
     fullDescription: 'The average mattress harbors over 2 million microscopic dust mites feeding on dead skin cells, which triggers morning sneezing, asthma, eczema, and restless sleep. Our Pure Sleep® service uses German-engineered pulsating dry-extraction technology that vibrates deep into the mattress core, paired with germicidal UV-C light to neutralize bacteria, bed bugs, and fungal spores.',
-    image: '/src/assets/images/service_mattress_sanitization_1792897222697.jpg',
+    image: APP_IMAGES.serviceMattressSanitization,
     basePriceAED: 240,
     unitLabel: 'per mattress',
     estimatedDuration: '45 - 60 minutes',
@@ -124,7 +126,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Comprehensive top-to-bottom hygienic restoration using organic solutions',
     shortDescription: 'Intensive deep cleaning for villas and apartments covering kitchens, appliances, bathrooms, baseboards, grout, and high-touch architectural surfaces.',
     fullDescription: 'Unlike standard hourly maid services, our Home Deep Cleaning is a dedicated team-based architectural decontamination. We systematically tackle behind appliances, inside cabinets, bathroom grout descaling, window tracks, ceiling fans, and indoor light fixtures using hospital-grade, plant-derived, non-toxic sanitizing solutions.',
-    image: '/src/assets/images/service_home_deep_cleaning_1792897220963.jpg',
+    image: APP_IMAGES.serviceHomeDeepCleaning,
     basePriceAED: 850,
     unitLabel: 'per apartment / villa',
     estimatedDuration: '5 - 8 hours',
@@ -170,7 +172,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Revitalize fabric and leather living room furniture with stain extraction',
     shortDescription: 'Industrial injection-extraction and deep foam steam sanitization that removes stains, oils, spilled liquids, and odor-causing bacteria.',
     fullDescription: 'Sofas and living room chairs endure daily use from family members, pets, and guests, absorbing body oils, dust, and food spills. Our Pure Living® sofa treatment combines gentle fiber-safe agitation, hot water thermal extraction, and fast-drying airflow to restore fibers to showroom condition.',
-    image: '/src/assets/images/hero_indoor_wellness_1792897222616.jpg',
+    image: APP_IMAGES.heroIndoorWellness,
     basePriceAED: 210,
     unitLabel: 'per seating section',
     estimatedDuration: '1.5 - 2.5 hours',
@@ -206,7 +208,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Safe, clear, bacteria-free domestic water storage for your family',
     shortDescription: 'Complete sludge drainage, high-pressure washing, and Dubai Municipality certified chlorination/disinfection of underground and overhead water tanks.',
     fullDescription: 'Domestic water tanks in the UAE accumulate silt, algae, and bacterial biofilms over time due to high ambient temperatures. Our Dubai Municipality approved water tank cleaning process ensures your shower, cooking, and washing water remains clean, odorless, and safe from Legionella and E. coli.',
-    image: '/src/assets/images/service_ac_duct_cleaning_1792897222434.jpg',
+    image: APP_IMAGES.serviceAcDuctCleaning,
     basePriceAED: 680,
     unitLabel: 'per water tank system',
     estimatedDuration: '3 - 4 hours',
@@ -242,7 +244,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     tagline: 'Targeted biological pest management without lingering chemical fumes',
     shortDescription: 'Odorless, pet-safe, and child-friendly targeted treatments for cockroaches, bed bugs, ants, termites, and silverfish.',
     fullDescription: 'Traditional pest control fills homes with harmful chemical residues. the clean home uses Integrated Pest Management (IPM) focusing on targeted gel baiting, insect growth regulators (IGR), and natural diatomaceous barriers that eliminate pests at the nest without requiring you to vacate the premises.',
-    image: '/src/assets/images/service_home_deep_cleaning_1792897220963.jpg',
+    image: APP_IMAGES.serviceHomeDeepCleaning,
     basePriceAED: 320,
     unitLabel: 'per treatment',
     estimatedDuration: '1 - 2 hours',
@@ -292,7 +294,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '5 min read',
     author: 'Dr. Tariq Mansoor, Environmental Wellness Director',
     excerpt: 'Because we spend over 90% of our time indoors in the UAE, indoor air can become up to 5 times more polluted than outside air without proper AC duct maintenance.',
-    image: '/src/assets/images/service_ac_duct_cleaning_1792897222434.jpg',
+    image: APP_IMAGES.serviceAcDuctCleaning,
     keyTakeaways: [
       'AC systems act as lungs for your home, accumulating desert dust and humidity.',
       'Mold colonies inside dark AC drip pans trigger allergies, asthma, and chronic morning fatigue.',
@@ -312,7 +314,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '6 min read',
     author: 'Layla Al-Khatib, Certified Sleep Hygiene Specialist',
     excerpt: 'Discover why standard washing machine cycles for your bedsheets leave millions of microscopic dust mites thriving just inches beneath your head.',
-    image: '/src/assets/images/service_mattress_sanitization_1792897222697.jpg',
+    image: APP_IMAGES.serviceMattressSanitization,
     keyTakeaways: [
       'A typical mattress doubles in weight over 10 years largely due to human skin shedding and dust mite colonies.',
       'Standard bedsheets allow microscopic mite feces and digestive enzymes to pass directly onto facial skin.',
@@ -332,7 +334,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '4 min read',
     author: 'Marc Dubois, Head of Cleaning Operations',
     excerpt: 'Moving into a new villa or apartment? Avoid moving into previous tenants’ accumulated grime and construction residue with this comprehensive guide.',
-    image: '/src/assets/images/service_home_deep_cleaning_1792897220963.jpg',
+    image: APP_IMAGES.serviceHomeDeepCleaning,
     keyTakeaways: [
       'Prioritize water tank disinfection and AC coil washing before unpacking boxes.',
       'Pay special attention to silicone sealant mold in showers and behind refrigerator coils.',

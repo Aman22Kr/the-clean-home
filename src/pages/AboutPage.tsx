@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { APP_IMAGES } from '../assets/images';
 import { AdPlaceholder } from '../components/AdPlaceholder';
 import { ShieldCheck, Heart, Award, CheckCircle2, ArrowRight, Wind, Sparkles } from 'lucide-react';
 
@@ -52,7 +53,7 @@ export const AboutPage: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl aspect-4/3 bg-slate-100">
               <img
-                src="/src/assets/images/service_ac_duct_cleaning_1792897222434.jpg"
+                src={APP_IMAGES.serviceAcDuctCleaning}
                 alt="Certified technicians at the clean home"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
